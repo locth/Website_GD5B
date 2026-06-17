@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pandoc --track-changes=all \"KH Trien khai mo hinh Gia dinh 5 biet 2.docx\" -o output.md)",
+      "Bash(python3 -c ' *)",
+      "Bash(pandoc --track-changes=all \"KH Trien khai mo hinh Gia dinh 5 biet 2.docx\" -o /tmp/gd5b.md)",
+      "Read(//tmp/**)",
+      "Bash(python3 -c \"import docx\")",
+      "Bash(pip3 list *)"
+    ]
+  }
+}
